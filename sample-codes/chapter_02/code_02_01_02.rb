@@ -1,0 +1,7 @@
+fizz_buzz(1)  #=> "1"
+fizz_buzz(2)  #=> "2"
+fizz_buzz(3)  #=> "Fizz"
+fizz_buzz(4)  #=> "4"
+fizz_buzz(5)  #=> "Buzz"
+fizz_buzz(6)  #=> "Fizz"
+fizz_buzz(15) #=> "Fizz Buzz"
