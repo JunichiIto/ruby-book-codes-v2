@@ -4,6 +4,8 @@ Sample codes for "[Introduction to Ruby programming for future professionals 2nd
 
 書籍「[プロを目指す人のためのRuby入門 改訂2版](https://gihyo.jp/book/2021/978-4-297-12437-3)（2021年12月発売）」のサンプルコードです。
 
+<img src="https://ruby-book.jnito.com/images/ruby-book/book-cover-v2.jpg" width="250" height="315">
+
 第1版（2017年11月発売）のサンプルコードを参照する場合は以下のリポジトリにアクセスしてください。
 
 https://github.com/JunichiIto/ruby-book-codes
