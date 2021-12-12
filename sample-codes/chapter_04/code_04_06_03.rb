@@ -21,9 +21,11 @@ end
 
 # ----------------------------------------
 
+# NOTE: 記述ミスがあったためコードを一部修正
+# https://gihyo.jp/book/2021/978-4-297-12437-3/support
 def to_hex(r, g, b)
-  [r, g, b].inject('#') do |hex, n|
-    hex + n.to_s(16).rjust(2, '0')
+  [r, g, b].sum('#') do |n|
+    n.to_s(16).rjust(2, '0')
   end
 end
 
