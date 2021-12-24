@@ -18,21 +18,21 @@
 
 # ----------------------------------------
 
-dimenstions = [
+dimensions = [
   [10, 20],
   [30, 40],
   [50, 60],
 ]
-# dimenstions.each { |dimenstion| p dimenstion } と書いたのと同じ
-dimenstions.each { p _1 }
+# dimensions.each { |dimension| p dimension } と書いたのと同じ
+dimensions.each { p _1 }
 #=> [10, 20]
 #   [30, 40]
 #   [50, 60]
 
 # ----------------------------------------
 
-# dimenstions.each { |length, width| puts "#{length} / #{width}" } と書いたのと同じ
-dimenstions.each { puts "#{_1} / #{_2}" }
+# dimensions.each { |length, width| puts "#{length} / #{width}" } と書いたのと同じ
+dimensions.each { puts "#{_1} / #{_2}" }
 #=> 10 / 20
 #   30 / 40
 #   50 / 60

@@ -12,7 +12,7 @@ reverse_proc.equal?(other_proc) #=> true
 # ----------------------------------------
 
 split_proc = :split.to_proc
-split_proc #=> #<Proc:0x0000000312f9a0(&:split)>
+split_proc #=> #<Proc:0x0000000312f9a0(&:split) (lambda)>
 
 # ----------------------------------------
 
