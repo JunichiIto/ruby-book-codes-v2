@@ -98,6 +98,6 @@ end
 
 # これはパターンマッチ（case/in式）
 case [1, 2, 3]
-in a, b, c
+in [a, b, c]
   # ...
 end
