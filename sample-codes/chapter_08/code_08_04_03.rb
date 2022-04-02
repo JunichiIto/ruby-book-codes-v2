@@ -32,7 +32,7 @@ module Rainbowable
     colored_chars = []
 
     # 2. 取得した文字列を1文字ずつループ処理する
-    str.each_char do ¦char¦
+    str.each_char do |char|
       # 文字色は31から36まで順に切り替え、最後まで進んだらまた31に戻る
       color = 31 + count % 6
 
