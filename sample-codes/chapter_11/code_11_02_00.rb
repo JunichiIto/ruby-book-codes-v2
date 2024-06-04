@@ -18,7 +18,7 @@ records.map do |record|
     Date.new(record[0], record[1], 1)
   when 3
     # 年月日を指定
-    Date.new(record[0], record[1], r[2])
+    Date.new(record[0], record[1], record[2])
   end
 end
 #=> [#<Date: 2021-01-01 ((2459216j,0s,0n),+0s,2299161j)>,
